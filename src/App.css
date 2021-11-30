@@ -1,13 +1,14 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
+  background: #360033; 
+  background: -webkit-linear-gradient(to right, #0b8793, #360033);  
+  background: linear-gradient(to right, #0b8793, #360033); 
   overflow: scroll;
   text-align: center;
 }
 
 .container {
-  height: 100%;
-  background-color: #0d1116;
+  height: 100%; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -21,7 +22,7 @@
   margin: 0;
   font-size: 50px;
   font-weight: bold;
-  color: white;
+  color:#7FFFD4;
 }
 
 .sub-text {
@@ -78,9 +79,6 @@
   margin-right: 15px;
 }
 
-.opensea-button {
-  background-color: rgb(32, 129, 226);
-}
 
 .mint-count {
   color: white;
